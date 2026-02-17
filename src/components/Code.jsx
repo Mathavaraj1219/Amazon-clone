@@ -12,7 +12,6 @@ import AccountDropdown from "./AccountDropdown.jsx?raw ";
 import LanguageDropdown from "./LanguageDropdown.jsx?raw";
 import Location from "./Location.jsx?raw";
 import AllMenu from "./AllMenu.jsx?raw";
-import Mycode from "./Code.jsx?raw";
 
 
 const Code = () => {
@@ -102,13 +101,6 @@ const Code = () => {
         <h2 className="font-semibold text-sky-500">AllMenu.jsx</h2>
         <SyntaxHighlighter language="jsx" style={vscDarkPlus}>
         {AllMenu}
-        </SyntaxHighlighter>
-      </div>
-
-      <div className="mt-4 mx-10">
-        <h2 className="font-semibold text-sky-500">Code.jsx</h2>
-        <SyntaxHighlighter language="jsx" style={vscDarkPlus}>
-        {Mycode}
         </SyntaxHighlighter>
       </div>
     </div>
