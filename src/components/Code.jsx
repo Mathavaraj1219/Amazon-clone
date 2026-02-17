@@ -12,6 +12,7 @@ import AccountDropdown from "./AccountDropdown.jsx?raw ";
 import LanguageDropdown from "./LanguageDropdown.jsx?raw";
 import Location from "./Location.jsx?raw";
 import AllMenu from "./AllMenu.jsx?raw";
+import Mycode from "./Code.jsx?raw";
 
 
 const Code = () => {
@@ -23,84 +24,91 @@ const Code = () => {
       <div className="mt-4 mx-10">
         <h2 className="font-semibold text-sky-500">App.jsx</h2>
         <SyntaxHighlighter language="jsx" style={vscDarkPlus}>
-        {app}
+        {String(app || "")}
         </SyntaxHighlighter>
       </div>
 
       <div className="mt-4 mx-10">
         <h2 className="font-semibold text-sky-500">Home.jsx</h2>
         <SyntaxHighlighter language="jsx" style={vscDarkPlus}>
-        {home}
+        {String(home || "")}
         </SyntaxHighlighter>
       </div>
 
       <div className="mt-4 mx-10">
         <h2 className="font-semibold text-sky-500">Navbar.jsx</h2>
         <SyntaxHighlighter language="jsx" style={vscDarkPlus}>
-        {navbar}
+        {String(navbar || "")}
         </SyntaxHighlighter>
       </div>
 
       <div className="mt-4 mx-10">
         <h2 className="font-semibold text-sky-500">SubNavbar.jsx</h2>
         <SyntaxHighlighter language="jsx" style={vscDarkPlus}>
-        {SubNavbar}
+        {String(SubNavbar || "")}
         </SyntaxHighlighter>
       </div>
 
       <div className="mt-4 mx-10">
         <h2 className="font-semibold text-sky-500">Hero.jsx</h2>
         <SyntaxHighlighter language="jsx" style={vscDarkPlus}>
-        {Hero}
+        {String(Hero || "")}
         </SyntaxHighlighter>
       </div>
 
       <div className="mt-4 mx-10">
         <h2 className="font-semibold text-sky-500">CardSection.jsx</h2>
         <SyntaxHighlighter language="jsx" style={vscDarkPlus}>
-        {CardSection}
+        {String(CardSection || "")}
         </SyntaxHighlighter>
       </div>
 
       <div className="mt-4 mx-10">
         <h2 className="font-semibold text-sky-500">Card.jsx</h2>
         <SyntaxHighlighter language="jsx" style={vscDarkPlus}>
-        {card}
+        {String(card || "")}
         </SyntaxHighlighter>
       </div>
 
       <div className="mt-4 mx-10">
         <h2 className="font-semibold text-sky-500">SignIn.jsx</h2>
         <SyntaxHighlighter language="jsx" style={vscDarkPlus}>
-        {SignIn}
+        {String(SignIn || "")}
         </SyntaxHighlighter>
       </div>
 
       <div className="mt-4 mx-10">
         <h2 className="font-semibold text-sky-500">AccountDropdown.jsx</h2>
         <SyntaxHighlighter language="jsx" style={vscDarkPlus}>
-        {AccountDropdown}
+        {String(AccountDropdown || "")}
         </SyntaxHighlighter>
       </div>
 
       <div className="mt-4 mx-10">
         <h2 className="font-semibold text-sky-500">LanguageDropdown.jsx</h2>
         <SyntaxHighlighter language="jsx" style={vscDarkPlus}>
-        {LanguageDropdown}
+        {String(LanguageDropdown || "")}
         </SyntaxHighlighter>
       </div>
 
       <div className="mt-4 mx-10">
         <h2 className="font-semibold text-sky-500">Location.jsx</h2>
         <SyntaxHighlighter language="jsx" style={vscDarkPlus}>
-        {Location}
+        {String(Location || "")}
         </SyntaxHighlighter>
       </div>
 
       <div className="mt-4 mx-10">
         <h2 className="font-semibold text-sky-500">AllMenu.jsx</h2>
         <SyntaxHighlighter language="jsx" style={vscDarkPlus}>
-        {AllMenu}
+        {String(AllMenu || "")}
+        </SyntaxHighlighter>
+      </div>
+
+      <div className="mt-4 mx-10">
+        <h2 className="font-semibold text-sky-500">Code.jsx</h2>
+        <SyntaxHighlighter language="jsx" style={vscDarkPlus}>
+        {String(Mycode || "")}
         </SyntaxHighlighter>
       </div>
     </div>
